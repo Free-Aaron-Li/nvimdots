@@ -6,7 +6,7 @@ settings["use_ssh"] = true
 
 -- Set it to false if you don't use copilot
 ---@type boolean
-settings["use_copilot"] = true
+--settings["use_copilot"] = true
 
 -- Set it to false if there is no need to format on save.
 ---@type boolean
@@ -173,7 +173,7 @@ settings["treesitter_deps"] = {
 -- NOTE: Currently, only the following options related to the GUI are supported. Other entries will be IGNORED.
 ---@type { font_name: string, font_size: number }
 settings["gui_config"] = {
-	font_name = "JetBrainsMono Nerd Font",
+	font_name = "JetBrains Maple Mono",
 	font_size = 12,
 }
 
@@ -185,7 +185,7 @@ settings["gui_config"] = {
 settings["neovide_config"] = {
 	no_idle = true,
 	refresh_rate = 120,
-	cursor_vfx_mode = "railgun",
+	cursor_vfx_mode = "",
 	cursor_vfx_opacity = 200.0,
 	cursor_antialiasing = true,
 	cursor_trail_length = 0.05,
